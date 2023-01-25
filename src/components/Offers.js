@@ -25,7 +25,7 @@ export default function Offers (){
                     <div>
                         <button className="offer-btn">We offer</button>
                         <h3 className="offer-h3">Awesome In Any Space. Perfectly Blend In Your Life.</h3>
-                        <p className="offer-p">Designed to take full advantage of next-level performance and special technologies such as the advanced image signal processor and integrated memory architecture.</p>
+                        <p className="offer-p">This extraordinary design was made possible thanks to the developer, the first system on a chip. Makes your device so thin and compact, it fits anywhere.</p>
                         <div className="buy-now-div">
                             <button>Buy Now</button>
                             <p>Learn More</p>
