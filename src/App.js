@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import './index.css'
 
 import Firstpage from './Components/Firstpage'
+import PromoSection from './Components/promos-section/Promos'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Firstpage/>
+      <PromoSection/>
       
     </div>
   );

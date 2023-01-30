@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.promos_container{
+    background: #1B1B1B;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding: 70px;
+}
+
+.promos_inner_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promos_inner_container h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.promos_cat_item{
+    display: flex;
+    border-bottom: 1px solid  #8d939e;
+}
+
+.promo_item{
+    padding: 17px;
+    width: 168px;
+    cursor: pointer;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #8d939e;
+}
+
+.promo_item:hover, .promo_item.active{
+
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #7c90ce, #8371DB);
+}
+
+.promo_item.active{
+    background: #8d939e4a;
+    color: white;
+}
+
+.promos_cat_display{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+
+.promos_card{
+flex-basis: 30%;
+background:  #36383C;
+border-radius: 10px;
+padding: 40px 50px;
+}
+
+.card-img{
+    height: 225px;
+    width: 225px;
+}
+
+.card-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.promo_card_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label{
+    font-size: 12px;
+    color: #928e8e;
+}
+
+.promos_shopping_cart{
+    position: relative;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: transparent;
+    border-radius: 50%;
+    color: white;
+    background:  linear-gradient(to left, #7c90ce, #8371DB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .promos_card{
+        padding: 20px 20px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .promo_item{
+            padding: 10px;
+            width: 150px;
+            font-size: 14px;
+        }
+        }
+        @media screen and (max-width: 758px) {
+            .promos_cat_item{
+                 flex-direction: column;
+            }
+            }
