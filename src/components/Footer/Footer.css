@@ -1,0 +1,48 @@
+.e-commerce-footer{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.footer-start{
+    width: 30%;
+}
+
+.footer-start h1{
+    color: rgb(144, 46, 236);
+}
+
+.footer-start p {
+    color:rgb(200, 198, 198);
+}
+
+.icons{
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(110, 105, 105);
+}
+
+.footer-info-section{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.footer-info-section ul{
+    list-style-type: none;
+}
+
+.list-one{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-others{
+    margin-bottom: 3px;
+    color:rgb(200, 198, 198);
+    line-height: 25px;
+}
