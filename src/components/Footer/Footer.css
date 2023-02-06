@@ -1,10 +1,10 @@
 .e-commerce-footer{
     width: 100%;
-    padding: 50px;
+    padding: 90px;
     display: flex;
+    justify-content: space-around;
     background-color: rgb(27, 27, 27);
     color: white;
-    border: 2px solid red;
 }
 
 .footer-start{
@@ -13,22 +13,27 @@
 
 .footer-start h1{
     color: rgb(144, 46, 236);
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
 }
 
 .footer-start p {
     color:rgb(200, 198, 198);
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .icons{
     border-radius: 20px;
-    padding: 10px;
+    padding: 12px;
     margin-right: 20px;
     background-color: rgb(110, 105, 105);
 }
 
 .footer-info-section{
     display: flex;
-    gap: 15px;
+    gap: 100px;
     list-style-type: none;
 }
 

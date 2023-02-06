@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='e-commerce-footer'>
         <section className='footer-start'>
-            <h1>EQUAL</h1>
+            <h1>HYPERTEXT</h1>
             <p>Powered by Intellect <br/> Driven by Values</p>
             <div className='footer-icons'>
                 <i class="fa-brands fa-twitter icons"></i>
