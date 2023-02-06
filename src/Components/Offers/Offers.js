@@ -1,6 +1,5 @@
 import tablet from "./images/tablet-4.jpg"
-import "../index.css"
-
+import './Offers.css'
 
 export default function Offers (){
     return (
@@ -8,7 +7,7 @@ export default function Offers (){
             <div className="offers-container">
                 <div className="offers-section offers-section-1">
                     <div className="img-div">
-                        <img src={tablet} className="image">
+                        <img src={tablet} className="image" alt="tablet">
                         </img>
                     </div>
                     <div>
@@ -32,7 +31,7 @@ export default function Offers (){
                         </div>
                     </div>
                     <div className="img-div">
-                        <img src={tablet} className="image">
+                        <img src={tablet} className="image" alt="tablet">
                         </img>
                     </div>
                 </div>
