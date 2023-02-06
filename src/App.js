@@ -1,6 +1,5 @@
 import Offers from "./components/Offers"
 
-
 function App() {
   return (
     <div className="App">
