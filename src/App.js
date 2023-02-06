@@ -1,12 +1,16 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar';
+import Firstpage from './Components/Navbar/Firstpage';
+import Promos from './Components/promos-section/Promos';
+import Footer from './Components/Footer/Footer';
 import './index.css'
-
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
+      <Firstpage/>
+      <Promos/>
       <Footer/>
     </div>
   );

@@ -13,7 +13,7 @@ const Firstpage = () => {
                     </div>
              </div>
                 <div>
-                    <img className="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUxFdYd1XQYld7xgm1BqF_5yYp9UnC_cXpZc0tiBsjaKGC5z8qdF-BYAOGcHBxhFtnmxw&usqp=CAU"></img>
+                    <img className="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUxFdYd1XQYld7xgm1BqF_5yYp9UnC_cXpZc0tiBsjaKGC5z8qdF-BYAOGcHBxhFtnmxw&usqp=CAU" alt='phone'></img>
                 </div>
             </div> 
         </>
